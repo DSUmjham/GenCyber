@@ -1,2 +1,88 @@
+
 # Software Defined Radios
 This part of the repo has examples, code, and scripts needed to run the SDRs as we did in the GenCyber camp at DSU.
+
+* [Hardware](#Hardware)
+* [Software](#Software)
+	* [Setting up a new Kali VM](#setting-up-a-new-kali-VM)
+	* [Gqrx](#gqrx)
+	* [Dump1090]()
+	* [Audacity](#audacity)
+* [Other Resources](#resources)
+
+## Hardware
+In the class we are using the popular RTL2832 SDR which can be found on [Adafruit](https://www.adafruit.com/product/1497) or other suppliers.
+
+* Cost ~$20 depending on the quantity you order and where from
+* 24MHz to 1850MHz 
+	*  FM Radio
+	* AM signals (but not AM radio)
+	* CW or morse code
+	* Unencrypted radio signals
+	* Pagers, garage door openers, remote power outlets, other connected devices
+* Receive only, does not have the ability to transmit
+
+To transmit data using an SDR, the [YARD Stick One](https://greatscottgadgets.com/yardstickone/) is capable radio.  The official operating frequencies are: 300-348 MHz, 391-464 MHz, and 782-928 MHz.  This should be sufficient for most ISM devices.
+
+## Software
+* 64-bit Kali linux virtual machine
+* [Gqrx](http://gqrx.dk) used to capture radio signals and raw wireless data.
+* [Dump1090](https://github.com/antirez/dump1090) decodes ADSB aircraft beacons and comes with a web server to plot planes flying overhead.
+
+### Setting up a new Kali VM
+If you have a Kali virtual machine running, the following instructions will update the VM and pull down the necessary software for you:
+
+ 1.  Inside of Kali, open up the **Terminal** or **Terminator** if that is installed
+ 2. Download the script
+	```console
+	wget https://raw.githubusercontent.com/DSUmjham/GenCyber/master/SDR/sdr_setup.sh
+	```
+ 3. Make the script executable
+	```console
+	chmod +x sdr_setup.sh 
+	```
+ 4. Run the script to install the **audacity**, **Gqrx**, **Dump1090**, and dependent packages	
+	```console
+	./sdr_setup.sh 
+	```
+ 5. Delete the setup script file
+	```console
+	rm sdr_setup.sh 
+	```
+### Gqrx
+Gqrx is an open source software defined radio receiver (SDR).  It is useful for picking up FM radio, weather radio (narrow FM), and raw signals.  Gqrx has the ability to record signals sent which can then be processed later.
+
+ 1. Run Gqrx from anywhere in the terminal using the following command
+	 ```console
+	 gqrx
+	 ```
+
+2. If for some reason you need to reset the Gqrx settings, you can do so by removing the Gqrx config file:
+	```console
+	rm ~/.config/gqrx/default.conf
+	```
+### Dump1090
+Dump1090 is a Mode S decoder specifically designed for RTLSDR devices.  It allows us to capture ADSB beacons and plot them on a live map using Google maps.
+
+1. To start Dump1090, change to the appropriate directory in the Terminal. If you used the **sdr_setup.sh** script to install, the location will be **/opt/dump1090**
+2. Start Dump1090 with the interactive mode and enable networking.  Interactive mode allows for data to be refreshed on the screen and networking enables the web server for plotting the air traffic.
+	```console
+	./dump1090 --net --interactive
+	```
+3. Open the Firefox web browser and navigate to http://127.0.0.1:8080 to view the map.  Once open, you will need to manually find your location on the map to view aircraft.
+
+### Audacity
+Audacity is an open-source software package used for editing audio files.  It also happens to be very useful for viewing raw wireless signals captured from an SDR.  The signals can then be manually demodulated to extract the binary patterns that the signal represents.
+
+1. Start audacity and open the capture file that you generated from anywhere in the Terminal
+	```console
+	audacity
+	```
+
+## Resources
+* [Audacity](https://github.com/audacity/audacity)
+* [Dump1090](https://github.com/antirez/dump1090)
+* [Gqrx](http://gqrx.dk)
+* [hak5](https://www.rtl-sdr.com/tag/hak5/) - good videos and tutorials on how to use your SDR once it's up and running.  Also has a store to buy some additional SDR gear or at least get ideas from.
+* [Offensive Security](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/) - link to pre-built Kali VM images.  Still will need to install the SDR software on top of these.
+* [RTL-SDR](https://www.rtl-sdr.com) - Ideas, projects, write-ups for using the RTLSDR.
