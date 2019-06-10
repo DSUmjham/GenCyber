@@ -6,9 +6,9 @@ This part of the repo has examples, code, and scripts needed to run the SDRs as 
 * [Software](#Software)
 	* [Setting up a new Kali VM](#setting-up-a-new-kali-VM)
 	* [Gqrx](#gqrx)
-	* [Dump1090]()
+	* [Dump1090](#dump1090)
 	* [Audacity](#audacity)
-* [Other Resources](#resources)
+* [Resources](#resources)
 
 ## Hardware
 In the class we are using the popular RTL2832 SDR which can be found on [Adafruit](https://www.adafruit.com/product/1497) or other suppliers.
