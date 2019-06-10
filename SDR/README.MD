@@ -28,6 +28,7 @@ To transmit data using an SDR, the [YARD Stick One](https://greatscottgadgets.co
 * 64-bit Kali linux virtual machine
 * [Gqrx](http://gqrx.dk) used to capture radio signals and raw wireless data.
 * [Dump1090](https://github.com/antirez/dump1090) decodes ADSB aircraft beacons and comes with a web server to plot planes flying overhead.
+* [Audacity](https://github.com/audacity/audacity) used to analyze raw signal captures and demodulate them
 
 ### Setting up a new Kali VM
 If you have a Kali virtual machine running, the following instructions will update the VM and pull down the necessary software for you:
