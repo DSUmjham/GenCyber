@@ -10,3 +10,6 @@ The camp's main purpose is to educate and excite groups of students that may not
 Students do not need any prior background or experience in security or computers to attend.
 
 [DSU GenCyber Camp](https://gencyber.camp)
+[DSU GenCyber Girls Camp](https://www.cybher.org/camp/)
+[DSU GenCyber Teachers Camp](http://www.gencyberteachers.camp)
+[DSU and NDSU Partner Camp](https://www.gencybernd.com)
