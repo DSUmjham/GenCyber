@@ -13,6 +13,9 @@ make
 # Downlaod and install audacity
 apt install audacity -y
 
+# Install rfcat for transmitting 
+apt  install rfcat -y
+
 # Stop the kernel from taking over the SDR
 echo "blacklist dvb_usb_rtl28xxu" >> /etc/modprobe.d/dvb-blacklist.conf
 reboot
