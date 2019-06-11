@@ -84,6 +84,7 @@ Audacity is an open-source software package used for editing audio files.  It al
 * [Audacity](https://github.com/audacity/audacity)
 * [Digital Ding Dong Ditch](http://samy.pl/dingdong/) - Writeup on Sammy Kamkar's digital ding dong ditch project.
 * [Dump1090](https://github.com/antirez/dump1090)
+* [FCCID.io](https://fccid.io) - Lookup a device in the FCC database to learn its frequency/modulation.
 * [Gqrx](http://gqrx.dk)
 * [hak5](https://www.rtl-sdr.com/tag/hak5/) - good videos and tutorials on how to use your SDR once it's up and running.  Also has a store to buy some additional SDR gear or at least get ideas from.
 * [Jared Boon - TPMS](https://github.com/jboone/tpms) - Jared Boon's GitHub page about analyzing/tracking TPMS sensors
