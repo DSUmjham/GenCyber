@@ -1,4 +1,3 @@
-
 *.key
 
 *.pptx
@@ -25,10 +24,9 @@ SDR/On Signal Demodulated.jpg
 
 SDR/On Signal.png
 
-Challenges/2016_exploitation/Lab 10.zip
-
 Malware/
 
-SDR/all_buzzers.py
+SDR/rfcat_doorbell.py
+SDR/rfcat_outlet_on.py
+SDR/rfcat_restaurant_pagers.py
 
-SDR/rfcat_Restaurant_Pager.txt
