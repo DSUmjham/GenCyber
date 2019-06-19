@@ -1,4 +1,5 @@
 
+
 # Software Defined Radios
 This part of the repo has examples, code, and scripts needed to run the SDRs as we did in the GenCyber camp at DSU.
 
@@ -8,14 +9,15 @@ This part of the repo has examples, code, and scripts needed to run the SDRs as 
 	* [Gqrx](#gqrx)
 	* [Dump1090](#dump1090)
 	* [Audacity](#audacity)
+	* [RfCat](#rRfCat)
 * [Resources](#resources)
 
 ## Hardware
 In the class we are using the popular RTL2832 SDR which can be found on [Adafruit](https://www.adafruit.com/product/1497) or other suppliers.
 
-* Cost ~$20 depending on the quantity you order and where from
+* Cost \~$20 depending on the quantity you order and where from
 * 24MHz to 1850MHz 
-	*  FM Radio
+	* FM Radio
 	* AM signals (but not AM radio)
 	* CW or morse code
 	* Unencrypted radio signals
@@ -29,6 +31,7 @@ To transmit data using an SDR, the [YARD Stick One](https://greatscottgadgets.co
 * [Gqrx](http://gqrx.dk) used to capture radio signals and raw wireless data.
 * [Dump1090](https://github.com/antirez/dump1090) decodes ADSB aircraft beacons and comes with a web server to plot planes flying overhead.
 * [Audacity](https://github.com/audacity/audacity) used to analyze raw signal captures and demodulate them
+* [RfCat](https://github.com/atlas0fd00m/rfcat) software to transmit using a YARD Stick One (YS1)
 
 ### Setting up a new Kali VM
 If you have a Kali virtual machine running, the following instructions will update the VM and pull down the necessary software for you:
@@ -79,6 +82,15 @@ Audacity is an open-source software package used for editing audio files.  It al
 	```console
 	audacity
 	```
+### RfCat
+RfCat is an open-source software program used to transmit data with a variety of SDRs.  The tool was created to allow security researchers to analyze unknown targets bad aid in reverse-engineering of hardware in a more timely way.  This tool can be used in an interactive mode or from a Python 2.7 script.
+
+1. Start RfCat in an interactive shell, plug the USB in first and run:
+	```console
+	rfcat -d
+	```
+
+For sample scripts, see the [rfcat_shell.py](https://github.com/DSUmjham/GenCyber/blob/master/SDR/rfcat_shell.py) skeleton scripting this repository.
 
 ## Resources
 * [Audacity](https://github.com/audacity/audacity)
