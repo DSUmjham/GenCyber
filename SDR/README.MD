@@ -1,5 +1,6 @@
 
 
+
 # Software Defined Radios
 This part of the repo has examples, code, and scripts needed to run the SDRs as we did in the GenCyber camp at DSU.
 
@@ -36,23 +37,12 @@ To transmit data using an SDR, the [YARD Stick One](https://greatscottgadgets.co
 ### Setting up a new Kali VM
 If you have a Kali virtual machine running, the following instructions will update the VM and pull down the necessary software for you:
 
- 1.  Inside of Kali, open up the **Terminal** or **Terminator** if that is installed
- 2. Download the script
+ 1.  Inside of Kali, open up the **Terminal** or **Terminator** if that is installed.
+ 2. Download and run the script
 	```console
-	wget https://raw.githubusercontent.com/DSUmjham/GenCyber/master/SDR/sdr_setup.sh
+	sudo zsh -c "$(wget -O - https://raw.githubusercontent.com/DSUmjham/GenCyber/master/SDR/sdr_setup.sh)"
 	```
- 3. Make the script executable
-	```console
-	chmod +x sdr_setup.sh 
-	```
- 4. Run the script to install the **audacity**, **Gqrx**, **Dump1090**, and dependent packages	
-	```console
-	./sdr_setup.sh 
-	```
- 5. Delete the setup script file
-	```console
-	rm sdr_setup.sh 
-	```
+
 ### Gqrx
 Gqrx is an open source software defined radio receiver (SDR).  It is useful for picking up FM radio, weather radio (narrow FM), and raw signals.  Gqrx has the ability to record signals sent which can then be processed later.
 
