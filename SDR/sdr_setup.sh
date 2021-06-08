@@ -24,6 +24,7 @@ rm -rf /usr/local/lib/librtlsdr*
 # build the new version of dump1090-fa
 cd /opt
 sudo bash -c "$(wget -O - https://raw.githubusercontent.com/abcd567a/piaware-ubuntu20-amd64/master/install-dump1090-fa.sh)"
+sudo systemctl disable dump1090-fa
 
 # blacklist the default TV tuner driver
 echo 'blacklist dvb_usb_rtl28xxu' | sudo tee --append /etc/modprobe.d/blacklist-dvb_usb_rtl28xxu.conf
