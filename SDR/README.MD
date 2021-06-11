@@ -8,7 +8,7 @@ This part of the repo has examples, code, and scripts needed to run the SDRs as 
 * [Software](#Software)
 	* [Setting up a new Kali VM](#setting-up-a-new-kali-VM)
 	* [Gqrx](#gqrx)
-	* [Dump1090](#dump1090)
+	* [dump1090](#dump1090-fa)
 	* [Audacity](#audacity)
 	* [RfCat](#rRfCat)
 * [Resources](#resources)
@@ -30,7 +30,7 @@ To transmit data using an SDR, the [YARD Stick One](https://greatscottgadgets.co
 ## Software
 * 64-bit Kali linux virtual machine
 * [Gqrx](http://gqrx.dk) used to capture radio signals and raw wireless data.
-* [Dump1090](https://github.com/antirez/dump1090) decodes ADSB aircraft beacons and comes with a web server to plot planes flying overhead.
+* [dump1090-fa](https://github.com/adsbxchange/dump1090-fa) decodes ADSB aircraft beacons and comes with a web server to plot planes flying overhead.
 * [Audacity](https://github.com/audacity/audacity) used to analyze raw signal captures and demodulate them
 * [RfCat](https://github.com/atlas0fd00m/rfcat) software to transmit using a YARD Stick One (YS1)
 
@@ -55,15 +55,20 @@ Gqrx is an open source software defined radio receiver (SDR).  It is useful for 
 	```console
 	rm ~/.config/gqrx/default.conf
 	```
-### Dump1090
-Dump1090 is a Mode S decoder specifically designed for RTLSDR devices.  It allows us to capture ADSB beacons and plot them on a live map using Google maps.
+### dump1090-fa
+dump1090-fa is a Mode S decoder specifically designed for RTLSDR devices.  It allows us to capture ADSB beacons and plot them on a live map using Google maps.
 
-1. To start Dump1090, change to the appropriate directory in the Terminal. If you used the **sdr_setup.sh** script to install, the location will be **/opt/dump1090**
-2. Start Dump1090 with the interactive mode and enable networking.  Interactive mode allows for data to be refreshed on the screen and networking enables the web server for plotting the air traffic.
+1. To start dump1090-fa, open up a Terminal in Kali.
+2. Start the dump1090-fa service (note: the SDR cannot be in use elsewhere)
 	```console
-	./dump1090 --net --interactive
+	sudo service dump1090-fa start
 	```
-3. Open the Firefox web browser and navigate to http://127.0.0.1:8080 to view the map.  Once open, you will need to manually find your location on the map to view aircraft.
+3. To check if the service is running
+	```console
+	sudo service dump1090-fa status
+	```
+4. Open the Firefox web browser and navigate to http://localhost/skyaware to view the map.  Once open, you will need to manually find your location on the map to view aircraft.
+5. To view the raw data, navigate to http://localhost:30003
 
 ### Audacity
 Audacity is an open-source software package used for editing audio files.  It also happens to be very useful for viewing raw wireless signals captured from an SDR.  The signals can then be manually demodulated to extract the binary patterns that the signal represents.
@@ -85,7 +90,7 @@ For sample scripts, see the [rfcat_shell.py](https://github.com/DSUmjham/GenCybe
 ## Resources
 * [Audacity](https://github.com/audacity/audacity)
 * [Digital Ding Dong Ditch](http://samy.pl/dingdong/) - Writeup on Sammy Kamkar's digital ding dong ditch project
-* [Dump1090](https://github.com/antirez/dump1090)
+* [dump1090](https://github.com/adsbxchange/dump1090-fa)
 * [FCCID.io](https://fccid.io) - Lookup a device in the FCC database to learn its frequency/modulation
 * [Flightradar24](https://www.flightradar24.com/) - Live plane tracking map
 * [Gqrx](http://gqrx.dk)
