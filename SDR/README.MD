@@ -97,4 +97,5 @@ For sample scripts, see the [rfcat_shell.py](https://github.com/DSUmjham/GenCybe
 * [hak5](https://www.rtl-sdr.com/tag/hak5/) - good videos and tutorials on how to use your SDR once it's up and running.  Also has a store to buy some additional SDR gear or at least get ideas from.
 * [Jared Boon - TPMS](https://github.com/jboone/tpms) - Jared Boon's GitHub page about analyzing/tracking TPMS sensors
 * [Offensive Security](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/) - link to pre-built Kali VM images.  Still will need to install the SDR software on top of these.
+* [PiAware](https://flightaware.com/adsb/piaware/) - Set up flight tracking on a Pi.
 * [RTL-SDR](https://www.rtl-sdr.com) - Ideas, projects, write-ups for using the RTLSDR.
