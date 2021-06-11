@@ -8,7 +8,7 @@ This part of the repo has examples, code, and scripts needed to run the SDRs as 
 * [Software](#Software)
 	* [Setting up a new Kali VM](#setting-up-a-new-kali-VM)
 	* [Gqrx](#gqrx)
-	* [dump1090](#dump1090-fa)
+	* [dump1090=fa](#dump1090-fa)
 	* [Audacity](#audacity)
 	* [RfCat](#rRfCat)
 * [Resources](#resources)
@@ -90,7 +90,7 @@ For sample scripts, see the [rfcat_shell.py](https://github.com/DSUmjham/GenCybe
 ## Resources
 * [Audacity](https://github.com/audacity/audacity)
 * [Digital Ding Dong Ditch](http://samy.pl/dingdong/) - Writeup on Sammy Kamkar's digital ding dong ditch project
-* [dump1090](https://github.com/adsbxchange/dump1090-fa)
+* [dump1090-fa](https://github.com/adsbxchange/dump1090-fa)
 * [FCCID.io](https://fccid.io) - Lookup a device in the FCC database to learn its frequency/modulation
 * [Flightradar24](https://www.flightradar24.com/) - Live plane tracking map
 * [Gqrx](http://gqrx.dk)
