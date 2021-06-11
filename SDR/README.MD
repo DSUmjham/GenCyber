@@ -8,7 +8,7 @@ This part of the repo has examples, code, and scripts needed to run the SDRs as 
 * [Software](#Software)
 	* [Setting up a new Kali VM](#setting-up-a-new-kali-VM)
 	* [Gqrx](#gqrx)
-	* [dump1090=fa](#dump1090-fa)
+	* [dump1090-fa](#dump1090-fa)
 	* [Audacity](#audacity)
 	* [RfCat](#rRfCat)
 * [Resources](#resources)
