@@ -91,7 +91,7 @@ For sample scripts, see the [rfcat_shell.py](https://github.com/DSUmjham/GenCybe
 * [Audacity](https://github.com/audacity/audacity)
 * [Digital Ding Dong Ditch](http://samy.pl/dingdong/) - Writeup on Sammy Kamkar's digital ding dong ditch project
 * [dump1090-fa](https://github.com/adsbxchange/dump1090-fa)
-* [FCCID.io](https://fccid.io) - Lookup a device in the FCC database to learn its frequency/modulation
+* [FCCID Device Lookup](https://www.fcc.gov/oet/ea/fccid)) - Lookup a device in the FCC database to learn its frequency/modulation
 * [Flightradar24](https://www.flightradar24.com/) - Live plane tracking map
 * [Gqrx](http://gqrx.dk)
 * [hak5](https://www.rtl-sdr.com/tag/hak5/) - good videos and tutorials on how to use your SDR once it's up and running.  Also has a store to buy some additional SDR gear or at least get ideas from.

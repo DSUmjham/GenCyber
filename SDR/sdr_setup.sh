@@ -8,7 +8,7 @@ fi
 
 # download all of the software and dependencies
 apt update
-apt install gqrx pkg-config librtlsdr-dev -y
+apt install gcc-multilib gqrx pkg-config librtlsdr-dev -y
 ln -sf /usr/lib/x86_64-linux-gnu/libvolk.so.1.3.1 /usr/lib/x86_64-linux-gnu/libvolk.so.1.3
 
 # downlaod and install audacity
