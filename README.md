@@ -12,4 +12,3 @@ Students do not need any prior background or experience in security or computers
 * [DSU GenCyber Camp](https://gencyber.camp)
 * [DSU GenCyber Girls Camp](https://www.cybher.org/camp/)
 * [DSU GenCyber Teachers Camp](http://www.gencyberteachers.camp)
-* [DSU and NDSU Partner Camp](https://www.gencybernd.com)
