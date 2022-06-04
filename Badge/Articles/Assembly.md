@@ -14,10 +14,7 @@ The order of assembly is not critical, but this approach should work well:
 	 8. 2 Pushbuttons
 	 9. DIP Socket
 	 10. Microcontroller ATTINy (this may be handed out at the end)
-	 
-
 ![Badge components labeled](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Images/assembly01.jpeg?raw=true)
-
 2. The DIP Socket is the first component to solder onto the badge. This will eventually hold the ATTINy chip onto the badge. Pay special attention to the notch on the socket; it should line up with the notch on the silk screen next to **U1** of the badge.
 ![DIP socket placed onto badge with notch orientation](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Images/assembly02.jpg?raw=true)
 ![Soldering the DIP socket](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Images/assembly03.jpg?raw=true)
