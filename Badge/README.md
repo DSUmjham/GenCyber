@@ -1,4 +1,5 @@
 
+
 # GenCyber-Badge Guide
 Participant guide to the DSU GenCyber electronic badge
 
@@ -24,8 +25,21 @@ Each camp will have a different number of participants and staff helping out. Th
 
  1. Scan your badge at one of the scoring kiosks to see your overall score.
  2. Press both **SW1** and **SW2** simultaneously and your RGB LED will give you an on-board indicator.
-   - The points breakdown is as follows:
    
+   The points breakdown is as follows:
+ 
+ | # of Badges  | % | Color |
+ |---: |---:|---    |
+ | 0   | 10 | Red   |
+ | 10  | 20 | Yellow|
+ | 15  | 30 | Green |
+ | 20  | 40 | Cyan  |
+ | 25  | 50 | Blue  |
+ | 30  | 60 | Purple|
+ | 35  | 70 | White |
+ | 40+ | 80 | ???   |
+
+
 If you played the game and met some friends along the way, you're a winner in our book :smile:!
 
 ## Resources

@@ -1,4 +1,5 @@
 
+
 # Badge Assembly
 The first objective you have is to assemble your badge. Make sure you've got a good grasp on the components you are working with and soldering safely before starting this!
 
@@ -15,6 +16,7 @@ The order of assembly is not critical, but this approach should work well:
 	 9. DIP Socket
 	 10. Microcontroller ATTINy (this may be handed out at the end)
 ![Badge components labeled](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Images/assembly01.jpeg?raw=true)
+
 2. The DIP Socket is the first component to solder onto the badge. This will eventually hold the ATTINy chip onto the badge. Pay special attention to the notch on the socket; it should line up with the notch on the silk screen next to **U1** of the badge.
 ![DIP socket placed onto badge with notch orientation](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Images/assembly02.jpg?raw=true)
 ![Soldering the DIP socket](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Images/assembly03.jpg?raw=true)
@@ -38,4 +40,6 @@ The order of assembly is not critical, but this approach should work well:
 ![Trimming component leads](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Images/assembly14.jpg?raw=true)
 10. If you don't already have your ATTINy, find a camp staff member. They will flash the firmware onto a chip for you and record your unique ID.
 11. Place the ATTINy in the DIP socket making sure to line up the indented dot on the chip with the notch of the socket.
-12. Test it out and if all is well, you're officially in the game!
+![ATTINy aligned with the notch on DIP socket](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Images/assembly15.jpg?raw=true)
+13. Install the battery into the holder minding the + and - sides.
+14.  Test it out and if all is well, you're officially in the game!
