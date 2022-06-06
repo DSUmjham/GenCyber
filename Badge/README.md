@@ -8,6 +8,10 @@ Participant guide to the DSU GenCyber electronic badge
 ## The Badge
 This is the first (that we know of) electronic badge designed for use in a GenCyber camp! The badge offers participants an opportunity to master soldering, and the six security concepts. This device is also capable of communicating with others like it over Infrared (IR), which is a great way to meet the other participants. A successfully-built badge allows participants to join our camp game in pursuit of the highest score. 
 
+ - [Assembly Instructions](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Articles/Assembly.md) - Step-by-step instructions on how to assemble your badge
+ - [Datasheets](https://github.com/DSUmjham/GenCyber/tree/master/Badge/Datasheets) - All of the nerdy specs on the components we used
+ - [Gerbers](https://github.com/DSUmjham/GenCyber/raw/master/Badge/Gerbers/gencyber-badge-22_2-gerbers.zip) - Archive of the gerber files needed to order your own badges
+
 ### The Game
 Your buy-in for the game is getting a badge built and registered with camp staff. Once that is done, the competition begins! The overall premise of the game is pretty simple: connect with as many *unique* badges as possible. Whoever collects the most wins the game.
 
