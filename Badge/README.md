@@ -34,14 +34,14 @@ Each camp will have a different number of participants and staff helping out. Th
  
  | # of Badges  | % | Color |
  |---: |---:|---    |
- | 0   | 10 | Red   |
- | 10  | 20 | Yellow|
- | 15  | 30 | Green |
- | 20  | 40 | Cyan  |
- | 25  | 50 | Blue  |
- | 30  | 60 | Purple|
- | 35  | 70 | White |
- | 40+ | 80 | ???   |
+ | 0   | 0 | Red   |
+ | 13  | 10 | Yellow|
+ | 25  | 20 | Green |
+ | 38  | 30 | Cyan  |
+ | 50  | 40 | Blue  |
+ | 63  | 50 | Purple|
+ | 75  | 60 | White |
+ | 100+ | 80 | ???   |
 
 
 If you played the game and met some friends along the way, you're a winner in our book :smile:!
