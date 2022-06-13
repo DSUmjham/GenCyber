@@ -10,7 +10,7 @@ This is the first (that we know of) electronic badge designed for use in a GenCy
 Once you've got your badge kit, assemble it and learn how the game works.
  1. [Assembly Instructions](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Articles/Assembly.md) - Step-by-step instructions on how to assemble your badge
  2. [The Game](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Articles/Game.md) - User guide for the badge and gameplay instructions.
- 3. [Badge Types]() - We have four different badges at camp.
+ 3. [Badge Types](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Articles/Badges.md) - We have four different badges at camp.
 
 ## Resources
 * [Arduino-IRremote](https://github.com/Arduino-IRremote/Arduino-IRremote) - library used with the ATTINy to enable IR TX/RX.
