@@ -26,7 +26,7 @@ The order of assembly is not critical, but this approach should work well:
 4. Once both buttons are soldered on, the transmitting IR LED can be soldered on. This will go in the **D2** place on the badge. **Note:** The silkscreen on the badge shows a flat edge of the **D2** component on the right-hand side. The IR LED also has a flat edge; line this side up with the silk screen. 
 ![IR Transmitting LED placed on the badge with flat edge properly aligned](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Images/assembly06.jpg?raw=true)
 ![Soldering the IR transmitting LED](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Images/assembly07.jpg?raw=true)
-5. Next, solder the resistor onto the badge in the **R1** location. It may be helpful to pre-bend the leads so that the component fits nicely. Avoid bending them at a sharp angle.
+5. Next, solder the resistor onto the badge in the **R1** location. The orientation of the resistor does not matter. It may be helpful to pre-bend the leads so that the component fits nicely. Avoid bending them at a sharp angle.
 ![Bending the resistor leads](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Images/assembly08.jpg?raw=true)
 6. The RGB LED can be soldered onto the badge next. This one is a little bit tricky because the solder pads are closer together than other components. It may be helpful to cut off each lead after it has been soldered to give you more room.  **Note:** Much like the IR transmitter LED, the RGB LED has a flat edge. This edge should be aligned with the flat edge on the silkscreen (right side).
 ![RGB LED placed on the badge](https://github.com/DSUmjham/GenCyber/blob/master/Badge/Images/assembly09.jpg?raw=true)
