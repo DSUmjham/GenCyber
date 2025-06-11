@@ -2,11 +2,16 @@
 * [The hackrf-morse.py script](https://github.com/DSUmjham/GenCyber/blob/master/HackRF_Morse_Code/hackrf-morse.py) takes your input text, generates Morse code as both a WAV file for listening and an FM-modulated IQ file for over-the-air transmission with HackRF.
 * A [Morse Code Cheat Sheet](https://github.com/DSUmjham/GenCyber/blob/master/HackRF_Morse_Code/morse_cheat_sheet.md) is available to help you decode messages.
 
-
-
+## Installing Dependencies
+1. Download the [setup.sh](https://github.com/DSUmjham/GenCyber/raw/refs/heads/master/HackRF_Morse_Code/setup.sh) script.
+2. Open a Terminal to mark the file as executable and run the script.
+```bash
+chmod +x setup.sh
+./setup.sh
+```
 ## Basic Usage
 ```bash
-python morse_fm_cli.py --text "CQ TEST"
+python hackrf-morse.py --text "CQ TEST"
 ```
 
 - Generates:
@@ -18,7 +23,7 @@ python morse_fm_cli.py --text "CQ TEST"
 Add `--send` to directly transmit after generating the IQ file:
 
 ```bash
-python morse_fm_cli.py --text "HELLO WORLD" --send
+python hackrf-morse.py --text "HELLO WORLD" --send
 ```
 
 This will run `hackrf_transfer` and transmit your message over the air at the default frequency (100.5 MHz).
@@ -28,7 +33,7 @@ This will run `hackrf_transfer` and transmit your message over the air at the de
 You can override the output filenames, transmit frequency, modulation settings, and more:
 
 ```bash
-python morse_fm_cli.py \
+python hackrf-morse.py \
   --text "THE QUICK BROWN FOX" \
   --wav preview.wav \
   --iq fox.iq \
