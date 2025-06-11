@@ -1,5 +1,6 @@
 # Introduction
-[The hackrf-morse.py script](https://github.com/DSUmjham/GenCyber/blob/master/HackRF_Morse_Code/hackrf-morse.py) takes your input text, generates Morse code as both a WAV file for listening and an FM-modulated IQ file for over-the-air transmission with HackRF.
+* [The hackrf-morse.py script](https://github.com/DSUmjham/GenCyber/blob/master/HackRF_Morse_Code/hackrf-morse.py) takes your input text, generates Morse code as both a WAV file for listening and an FM-modulated IQ file for over-the-air transmission with HackRF.
+* A [Morse Code Cheat Sheet](https://github.com/DSUmjham/GenCyber/blob/master/HackRF_Morse_Code/morse_cheat_sheet.md) is available to help you decode messages.
 
 
 
