@@ -27,13 +27,13 @@ The chart below shows how many badges are needed to reach each level. For exampl
  | # of Badges  | % | Color |
  |---: |---:|---    |
  | 0   | 0 | Red   |
- | 13  | 10 | Yellow|
- | 25  | 20 | Green |
- | 38  | 30 | Cyan  |
- | 50  | 40 | Blue  |
- | 63  | 50 | Purple|
- | 75  | 60 | White |
- | 100+ | 80 | ???   |
+ | 8  | 10 | Yellow|
+ | 16  | 20 | Green |
+ | 24  | 30 | Cyan  |
+ | 32  | 40 | Blue  |
+ | 40  | 50 | Purple|
+ | 48  | 60 | White |
+ | 64+ | 80 | ???   |
 
 
 If you played the game and met some friends along the way, you're a winner in our book :smile:!
